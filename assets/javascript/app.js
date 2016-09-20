@@ -7,54 +7,54 @@ $(document).ready(function () {
     function trivia() {
         var scoreAry = [];
         var questions = [{
-            q: "What is the name of the Paranoid Android in Douglas Adams’ ‘Hitchhiker’s Guide to the Galaxy’?",
-            s: ["Andy", "Bob", "Susan", "Marvin"],
-            a: "Marvin",
+            q: "What were the first names of the famous explorers Lewis and Clark?",
+            s: ["Clark and Lewis","John and Lincoln", "Benjamin and Samuel", "Meriwether and William"],
+            a: "Meriwether and William",
             correct: 0
         }, {
-            q: "In Monopoly, the green set consists of Pacific Avenue, North Carolina Avenue and which other?",
-            s: ["Oxford Street", "Pennsylvania Avenue", "Park Place", "New York Avenue"],
-            a: "Pennsylvania Avenue",
+            q: "At the time of the Declaration of Independence what was the approximate population of the United States?",
+            s: ["20,000", "200,000", "2,000,000", "20,000,000"],
+            a: "2,000,000",
             correct: 0
         }, {
-            q: "Who created Snoopy?",
-            s: ["George Herriman", "Charles M. Schulz", "Jim Davis", " Garry Trudeau"],
-            a: "Charles M. Schulz",
+            q: "John Brown of Civil War fame was which?",
+            s: ["an abolitionist", "a slave", "a slave-owner", "none of the above"],
+            a: "an abolitionist",
             correct: 0
         }, {
-            q: "What was the name of the tallest Warner brother in Animaniacs?",
-            s: ["Dot", "Yakko", "Wacko", "Pinky"],
-            a: "Yakko",
+            q: "Where was the UN headquarter located prior to them moving to Manhattan's East Side?",
+            s: ["San Francisco, Califorina", "Long Island, New York", "Geneva,Switzerland", "Paris, France"],
+            a: "Long Island, New York",
             correct: 0
         }, {
-            q: "After how many years would you celebrate your crystal anniversary?",
-            s: ["5", "10", "15", "20"],
-            a: "15",
+            q: "When did the Statue of Liberty celebrated its 100th anniversary?",
+            s: ["1976", "1986", "1966", "1956"],
+            a: "1986",
             correct: 0
         }, {
-            q: "Which sign of the zodiac would you be if your birthday was on October 18?",
-            s: ["Virgo", "Cancer", "Libra", "Pices"],
+            q: "The Constitution protects citizens against 'unreasonable searches and seizures' with which amendment?",
+            s: ["The First", "The Fourth", "The Ninth", "The Fourteenth"],
             a: "Libra",
             correct: 0
         }, {
-            q: "Which birthstone is associated with the month of May?",
-            s: ["Diamond", "Peridot", "Sapphire", "Emerald"],
-            a: "Emerald",
+            q: "In the House of Representatives which state has more than one seat?",
+            s: ["Alaska", "Hawaii","Vermont", "Wynoming"],
+            a: "Hawaii",
             correct: 0
         }, {
-            q: "What is the capital city of Afghanistan?",
-            s: ["Istanbul", "Constantinople", "Kabul", "Ghazni"],
-            a: "Kabul",
+            q: "This president was the only U.S. president to actively lead troops while in office. What was his name?",
+            s: ["George Washington", "Thomas Jefferson", "James Madison", "Andrew Jackson"],
+            a: "James Madison",
             correct: 0
         }, {
-            q: "In which country is Mount Everest?",
-            s: ["The Himalayas", "Nepal", "Tibet", "India"],
+            q: "What happened on December 7, 1941?",
+            s: ["World War II ended", "Treaty of Versailles", "Pearl Harbor"],
             a: "Nepal",
             correct: 0
         }, {
-            q: "What is the abbreviation for Potassium in the Periodic Table of Elements?",
-            s: ["Po", "Pa", "K", "Ps"],
-            a: "K",
+            q: "Who wrote most of the Declaration of Independence?",
+            s: ["Thomas Edison", "George Washington", "Andrew Jackson"],
+            a: "Thomas Jefferson",
             correct: 0
         }];
 
